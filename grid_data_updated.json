@@ -1,0 +1,475 @@
+{
+    "branch_data": {
+        "1152,15211": {
+            "R": 0.0065,
+            "X": 0.004,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "13507,15211": {
+            "R": 0.0355,
+            "X": 0.0217,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": true
+        },
+        "1152,3181": {
+            "R": 0.01,
+            "X": 0.0077,
+            "capacity": 9.5,
+            "status": "closed",
+            "expandable": false
+        },
+        "1139,1140": {
+            "R": 0.0268,
+            "X": 0.0164,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1149,3178": {
+            "R": 0.017,
+            "X": 0.029,
+            "capacity": 4.2,
+            "status": "closed",
+            "expandable": false
+        },
+        "15211,15212": {
+            "R": 0.0048,
+            "X": 0.0029,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1152,3175": {
+            "R": 0.0104,
+            "X": 0.0079,
+            "capacity": 9.5,
+            "status": "closed",
+            "expandable": false
+        },
+        "3176,3177": {
+            "R": 0.029,
+            "X": 0.0445,
+            "capacity": 3.2,
+            "status": "closed",
+            "expandable": false
+        },
+        "1153,3175": {
+            "R": 0.0103,
+            "X": 0.0063,
+            "capacity": 4.7,
+            "status": "candidate",
+            "expandable": false
+        },
+        "3184,3185": {
+            "R": 0.0036,
+            "X": 0.0022,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1149,1150": {
+            "R": 0.0088,
+            "X": 0.0054,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "3177,3180": {
+            "R": 0.0258,
+            "X": 0.0395,
+            "capacity": 3.2,
+            "status": "closed",
+            "expandable": false
+        },
+        "3181,3182": {
+            "R": 0.0106,
+            "X": 0.0081,
+            "capacity": 9.5,
+            "status": "closed",
+            "expandable": false
+        },
+        "1150,3176": {
+            "R": 0.0217,
+            "X": 0.0333,
+            "capacity": 3.2,
+            "status": "closed",
+            "expandable": false
+        },
+        "1139,1146": {
+            "R": 0.0006,
+            "X": 0.0004,
+            "capacity": 9.5,
+            "status": "closed",
+            "expandable": false
+        },
+        "3178,3179": {
+            "R": 0.0203,
+            "X": 0.0345,
+            "capacity": 4.2,
+            "status": "closed",
+            "expandable": false
+        },
+        "1149,3182": {
+            "R": 0.0086,
+            "X": 0.0065,
+            "capacity": 9.5,
+            "status": "closed",
+            "expandable": false
+        },
+        "1136,1137": {
+            "R": 0.0303,
+            "X": 0.0186,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "3183,3184": {
+            "R": 0.006,
+            "X": 0.0037,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1136,1142": {
+            "R": 0.0224,
+            "X": 0.0137,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1144,1145": {
+            "R": 0.0144,
+            "X": 0.0089,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "12010,3185": {
+            "R": 0.0006,
+            "X": 0.0004,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1136,1157": {
+            "R": 0.0031,
+            "X": 0.0019,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1136,1153": {
+            "R": 0.0055,
+            "X": 0.0034,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1139,3175": {
+            "R": 0.0103,
+            "X": 0.0079,
+            "capacity": 9.5,
+            "status": "closed",
+            "expandable": false
+        },
+        "1144,3183": {
+            "R": 0.0047,
+            "X": 0.0029,
+            "capacity": 4.7,
+            "status": "closed",
+            "expandable": false
+        },
+        "1144,3179": {
+            "R": 0.0181,
+            "X": 0.0308,
+            "capacity": 4.2,
+            "status": "closed",
+            "expandable": false
+        }
+    },
+    "node_data": {
+        "13507": {
+            "type": "substation",
+            "Pd": 0.0,
+            "Qd": 0.0,
+            "capacity": 5.0,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -10,
+            "y": -2
+        },
+        "15211": {
+            "type": "load",
+            "Pd": 1.27,
+            "Qd": 0.37,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 9,
+            "y": -2
+        },
+        "1152": {
+            "type": "load",
+            "Pd": 1.42,
+            "Qd": 0.44,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 8,
+            "y": -2
+        },
+        "3181": {
+            "type": "load",
+            "Pd": 0.92,
+            "Qd": 0.48,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 1,
+            "y": -1
+        },
+        "3182": {
+            "type": "load",
+            "Pd": 1.23,
+            "Qd": 0.48,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 0,
+            "y": -1
+        },
+        "1149": {
+            "type": "load",
+            "Pd": 1.11,
+            "Qd": 0.49,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 0,
+            "y": 0
+        },
+        "3178": {
+            "type": "load",
+            "Pd": 1.18,
+            "Qd": 0.42,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -3,
+            "y": 0
+        },
+        "3179": {
+            "type": "load",
+            "Pd": 1.24,
+            "Qd": 0.42,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -4,
+            "y": 0
+        },
+        "1144": {
+            "type": "load",
+            "Pd": 1.27,
+            "Qd": 0.33,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -4,
+            "y": 1
+        },
+        "1145": {
+            "type": "load",
+            "Pd": 0.45,
+            "Qd": 0.2,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -10,
+            "y": -2
+        },
+        "3183": {
+            "type": "load",
+            "Pd": 0.95,
+            "Qd": 0.33,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -5,
+            "y": 1
+        },
+        "3184": {
+            "type": "load",
+            "Pd": 1.16,
+            "Qd": 0.39,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -5,
+            "y": 2
+        },
+        "3185": {
+            "type": "load",
+            "Pd": 0.91,
+            "Qd": 0.45,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -6,
+            "y": 2
+        },
+        "12010": {
+            "type": "load",
+            "Pd": 0.68,
+            "Qd": 0.3,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -7,
+            "y": 1
+        },
+        "1150": {
+            "type": "load",
+            "Pd": 0.56,
+            "Qd": 0.25,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -1,
+            "y": 1
+        },
+        "3176": {
+            "type": "load",
+            "Pd": 1.39,
+            "Qd": 0.45,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -2,
+            "y": 1
+        },
+        "3177": {
+            "type": "load",
+            "Pd": 0.96,
+            "Qd": 0.48,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -2,
+            "y": 1
+        },
+        "3180": {
+            "type": "load",
+            "Pd": 0.13,
+            "Qd": 0.06,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": -3,
+            "y": 0
+        },
+        "3175": {
+            "type": "load",
+            "Pd": 0.85,
+            "Qd": 0.36,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 7,
+            "y": 0
+        },
+        "1153": {
+            "type": "load",
+            "Pd": 1.1,
+            "Qd": 0.45,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 4,
+            "y": 0
+        },
+        "1136": {
+            "type": "load",
+            "Pd": 1.05,
+            "Qd": 0.32,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 4,
+            "y": 0
+        },
+        "1137": {
+            "type": "load",
+            "Pd": 0.5,
+            "Qd": 0.22,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 1,
+            "y": -1
+        },
+        "1142": {
+            "type": "load",
+            "Pd": 0.58,
+            "Qd": 0.26,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 2,
+            "y": 1
+        },
+        "1157": {
+            "type": "load",
+            "Pd": 0.87,
+            "Qd": 0.45,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 3,
+            "y": 1
+        },
+        "1139": {
+            "type": "load",
+            "Pd": 0.88,
+            "Qd": 0.34,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 5,
+            "y": 1
+        },
+        "1140": {
+            "type": "load",
+            "Pd": 1.2,
+            "Qd": 0.41,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 4,
+            "y": 0
+        },
+        "1146": {
+            "type": "load",
+            "Pd": 0.2,
+            "Qd": 0.09,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 5,
+            "y": 1
+        },
+        "15212": {
+            "type": "load",
+            "Pd": 0.37,
+            "Qd": 0.17,
+            "capacity": null,
+            "Vmin": 0.9,
+            "Vmax": 1.1,
+            "x": 8,
+            "y": -1
+        }
+    }
+}
