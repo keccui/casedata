@@ -1,24 +1,33 @@
-配电网线路与节点数据说明
-本项目包含一个用于配电网模拟与规划研究的数据集，涵盖典型的馈线结构，包含线路（branch）参数与节点（node）信息。该数据可用于电力系统潮流计算、运行仿真、规划优化等场景，适配多种电力系统分析框架（如 OpenDSS、Pandapower、Matpower 等）。
 
-📁 数据结构说明
+---
+
+# 配电网线路与节点数据说明
+
+本项目包含一个用于配电网规划研究的数据集，涵盖典型的馈线结构，包含线路（branch）参数与节点（node）信息。该数据可用于电力系统潮流计算、运行仿真、规划优化等场景。
+
+---
+
+## 📁 数据结构说明
+
 数据文件主要包含两个核心部分：
 
-1. branch_data
+### 1. `branch_data`
+
 描述配电网中各条支路的参数，包括阻抗、容量、运行状态等。
 
-字段含义：
-字段名	含义	类型	单位
-R	电阻（Resistance）	float	Ω
-X	电抗（Reactance）	float	Ω
-capacity	最大可承载容量	float	MVA
-status	当前状态（closed/open）	string	-
-expandable	是否支持扩容	boolean	-
+#### 字段含义：
 
-示例：
-json
-复制
-编辑
+| 字段名        | 含义                | 类型      | 单位  |
+| ---------- | ----------------- | ------- | --- |
+| R          | 电阻（Resistance）    | float   | Ω   |
+| X          | 电抗（Reactance）     | float   | Ω   |
+| capacity   | 最大可承载容量           | float   | MVA |
+| status     | 当前状态（closed/open） | string  | -   |
+| expandable | 是否支持扩容            | boolean | -   |
+
+#### 示例：
+
+```json
 "branch_data": {
     "1152,15211": {
         "R": 0.0065,
@@ -28,23 +37,29 @@ json
         "expandable": false
     }
 }
-2. node_data
+```
+
+---
+
+### 2. `node_data`
+
 描述各节点的类型、负荷、电压限制以及地理坐标信息。
 
-字段含义：
-字段名	含义	类型	单位
-type	节点类型（如 load / substation）	string	-
-Pd	有功负荷	float	MW
-Qd	无功负荷	float	MVar
-capacity	节点容量（如适用）	float/null	MVA
-Vmin	最小允许电压幅值	float	p.u.
-Vmax	最大允许电压幅值	float	p.u.
-x, y	节点的平面坐标（用于可视化）	float	-
+#### 字段含义：
 
-示例：
-json
-复制
-编辑
+| 字段名      | 含义                            | 类型         | 单位   |
+| -------- | ----------------------------- | ---------- | ---- |
+| type     | 节点类型（如 `load` / `substation`） | string     | -    |
+| Pd       | 有功负荷                          | float      | MW   |
+| Qd       | 无功负荷                          | float      | MVar |
+| capacity | 节点容量（如适用）                     | float/null | MVA  |
+| Vmin     | 最小允许电压幅值                      | float      | p.u. |
+| Vmax     | 最大允许电压幅值                      | float      | p.u. |
+| x, y     | 节点的平面坐标（用于可视化）                | float      | -    |
+
+#### 示例：
+
+```json
 "node_data": {
     "13507": {
         "type": "substation",
@@ -67,30 +82,40 @@ json
         "y": -2
     }
 }
-✅ 使用方式
-将数据结构加载为 JSON 或 Python 字典；
+```
 
-可用于：
+---
 
-配电网可视化；
+## ✅ 使用方式
 
-潮流分析建模；
+1. 将数据结构加载为 JSON 或 Python 字典；
+2. 可用于：
 
-节点负荷优化与运行决策；
+   * 配电网可视化；
+   * 潮流分析建模；
+   * 节点负荷优化与运行决策；
+   * 配电网规划算法验证等；
+3. 推荐工具/库：
 
-配电网规划算法验证等；
+   * `networkx` / `matplotlib`：构建与绘图；
+   * `Pandapower`：潮流与规划分析；
+   * `OpenDSS`：配电网仿真与控制策略测试。
 
-推荐工具/库：
+---
 
-networkx / matplotlib：构建与绘图；
+## 📌 注意事项
 
-Pandapower：潮流与规划分析；
+* 所有参数单位需保持一致；
+* `capacity = null` 表示该字段在该节点不适用；
+* 节点坐标仅用于地图或可视化场景；
+* 若扩展为完整配电网系统，请确保拓扑连接闭合，且节点编号唯一。
 
-OpenDSS：配电网仿真与控制策略测试。
+---
 
-📌 注意事项
-所有参数单位需保持一致；
+## 📄 License
 
-capacity = null 表示该字段在该节点不适用；
+本数据集可在遵循 [MIT License](LICENSE) 下自由使用、复制和修改，欢迎引用或贡献完善。
 
-节点坐标仅用于地图或可视化场景；
+---
+
+如需，我也可以为你生成对应的 `LICENSE` 文件和 `.json` 示例文件。是否需要？
