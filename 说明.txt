@@ -1,0 +1,6 @@
+branch.xlsx   是支路的序号及各节点的连接关系
+load.xlsx       是各节点的序号
+load_P.xlsx    是各节点的有功功率
+load_Q.xlsx   是各节点的无功功率
+location.xlsx 是各节点的坐标，方便画图
+PV.xlsx         是光伏节点的光伏发电情况
